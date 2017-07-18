@@ -1,0 +1,46 @@
+.md-title-bar {
+  background-color: white;
+  padding: 0 20px;
+  border-bottom: 2px solid black;
+}
+
+.md-title-area {
+  display: inline-block;
+  text-align: center;
+}
+
+.md-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 8px;
+  vertical-align: top;
+  border: 1px solid #999;
+}
+
+.md-logo-title {
+  color: #111;
+  margin-top: 6px
+}
+
+.md-logo-subtitle {
+  font-size: 13px;
+  margin-top: -13px;
+}
+
+.md-right-side-controls {
+  line-height: 60px;
+}
+
+.md-right-side-controls > div {
+  text-align: center;
+}
+
+@@media scren and(min-width: 760px) {
+    .md-right-side-controls > div {
+        text-align: right;
+    }
+    .md-logo-area {
+      text-align: left;
+    }
+}
